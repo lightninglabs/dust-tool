@@ -35,7 +35,7 @@ var (
 
 	tlsPath = flag.String("tlspath", defaultTLSCertPath, "path to the TLS cert of the target lnd node")
 
-	macaroonPath = flag.String("macdir", defaultMacaroonPath, "path of admin.macaroon for the target lnd node")
+	macaroonPath = flag.String("macpath", defaultMacaroonPath, "path of admin.macaroon for the target lnd node")
 
 	network = flag.String("network", defaultNet, "the network the lnd node is running on")
 

@@ -41,7 +41,7 @@ var (
 
 	checkChans = flag.Bool("check-chans", false, "whether to check existing channels for dust_limit_satoshis exposure")
 
-	dustThreshold = flag.Uint64("dustexposure", defaultDustThreshold, "sets the dust threshold for channel close recommendations - must be specified with checkchans")
+	dustThreshold = flag.Uint64("dustexposure", defaultDustThreshold, "sets the dust threshold in satoshis for channel close recommendations - must be specified with checkchans")
 
 	acceptorTimeout = 10 * time.Second
 

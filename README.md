@@ -22,7 +22,7 @@ $ go build
 - The dust tool can also give channel close recommendations based on a confirmed channel's `dust_limit_satoshis` and `max_accepted_htlcs` values.
 - Simply run it like so, optionally specifying `-dustexposure` in satoshis:
 ```
-./dust-tool -network=<mainnet/testnet/etc> -macpath=<path-of-macaroon> -host=<host:poart of RPC server> -check-chans -dustexposure=1000000
+./dust-tool -network=<mainnet/testnet/etc> -macpath=<path-of-macaroon> -host=<host:port of RPC server> -check-chans -dustexposure=1000000
 ```
 - If a potentially risky channel is found, you should receive output like this:
 ```

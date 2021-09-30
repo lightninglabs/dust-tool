@@ -72,7 +72,7 @@ func main() {
 
 // checkDustChannels calls ListChannels and recommends which channels should be
 // closed due to potential dust exposure. This only evaluates confirmed
-// channels since ListChannels only returns public channels.
+// channels since ListChannels does not return pending channels.
 func checkDustChannels() {
 	// Create new gRPC client.
 	client, err := createRpcClient()

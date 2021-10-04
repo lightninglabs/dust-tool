@@ -37,7 +37,7 @@ Usage of ./dust-tool:
   -check-chans
         whether to check existing channels for dust_limit_satoshis exposure
   -dustexposure uint
-        sets the dust threshold in satoshis for channel close recommendations - must be specified with checkchans (default 500000)
+        sets the dust threshold in satoshis for channel close recommendations - must be specified with checkchans (default 600000)
   -host string
         host of the target lnd node (default "localhost:10009")
   -macpath string

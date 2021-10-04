@@ -1,4 +1,4 @@
-module dustacceptor
+module dust-tool
 
 go 1.16
 

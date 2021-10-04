@@ -29,7 +29,7 @@ var (
 
 	defaultNet = "mainnet"
 
-	defaultDustThreshold = uint64(500000)
+	defaultDustThreshold = uint64(600000)
 
 	host = flag.String("host", "localhost:10009", "host of the target lnd node")
 
